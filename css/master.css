@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  line-height: 2rem;
+  line-height: 1.5;
   color: white;
   display: inline-grid;
 }
@@ -73,4 +73,19 @@ a:hover {
 
 .copyright {
   color: #a964cd;
+}
+
+@media (max-width: 500px) {
+  .btn {
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (max-width: 400px) {
+  .btn {
+    margin: 15px;
+    height: 100px;
+    width: 100px;
+  }
 }
